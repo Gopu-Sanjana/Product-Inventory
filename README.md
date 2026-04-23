@@ -26,6 +26,21 @@ This application allows users to manage products with full CRUD functionality an
 
 ---
 
+# Tech Stack
+
+## Backend
+* FastAPI  
+* SQLAlchemy  
+* PostgreSQL  
+* Uvicorn  
+
+## Frontend
+* React  
+* Axios  
+* Node.js  
+
+---
+
 ## Backend Setup
 
 ### 1. Create and activate virtual environment
@@ -44,6 +59,7 @@ pip install fastapi uvicorn sqlalchemy psycopg2-binary
 ### 3. Run the application
 
 ```
+cd backend
 uvicorn main:app --reload
 ```
 
